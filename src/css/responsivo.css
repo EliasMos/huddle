@@ -1,0 +1,36 @@
+@media (max-width: 400px) {
+
+      body{
+        background-image: url(../images/bg-mobile.svg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+      }
+       
+      .principal .image img{
+        width: 300px;
+        margin-left: 15px;
+      }
+
+      .cabecalho {
+       display: flex;
+       justify-content: center;
+       margin-right: 30px;
+      }
+     
+      .principal{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 20px;
+      }
+
+      .lista{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-left: 50px;
+      }
+
+    }
